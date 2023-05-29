@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.553">
+    <testcase classname="Feature to test Amazon Search Functionality" name="Search for the products under Books category" time="0.104">
+        <system-out><![CDATA[Given I visit the website as Guest user.....................................passed
+When I select the books option from the dropdown............................passed
+And I click on Search Icon button...........................................passed
+Then I should see the Books page loaded.....................................passed
+And I should see Books at Amazon as heading.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Amazon Search Functionality" name="Search for the products under Baby category" time="0.01">
+        <system-out><![CDATA[Given I visit the website as Guest user.....................................passed
+When I select the 'Baby' option from the dropdown...........................passed
+And I click on Search Icon button...........................................passed
+Then I should see the Baby page loaded......................................passed
+And I should see 'The Baby Store at Amazon'as heading.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Amazon Search Functionality" name="Search for the products under Computers&amp;Accessories  category" time="0.016">
+        <system-out><![CDATA[Given I visit the website as Guest user.....................................passed
+When I select the 'Computers&Accessories' option from the dropdown..........passed
+And I click on Search Icon button...........................................passed
+Then I should see the Computers page loaded.................................passed
+And I should see 'Computers&Accessories' as heading.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Amazon Search Functionality" name="Search for the products under Clothing&amp;Accessories category" time="0.01">
+        <system-out><![CDATA[Given I visit the website as Guest user.....................................passed
+When I select the 'Clothing&Accessories'option from the dropdown............passed
+And I click on Search Icon button...........................................passed
+Then I should see the Clothing page loaded..................................passed
+And I should see 'Clothing&Accessories' as heading..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

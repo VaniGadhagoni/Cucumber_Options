@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-22T10:41:15.317Z",
+        "line": 4,
+        "name": "Search for the products under Books category",
+        "description": "Using Search functionality, User should be able to search for books",
+        "id": "feature-to-test-amazon-search-functionality;search-for-the-products-under-books-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11966800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I visit the website as Guest user",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_visit_the_website_as_guest_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the books option from the dropdown",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_select_the_books_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Search Icon button",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_click_on_search_icon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11967700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the Books page loaded",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_the_books_page_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2991200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see Books at Amazon as heading",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_books_at_amazon_as_heading()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T10:41:15.571Z",
+        "line": 13,
+        "name": "Search for the products under Baby category",
+        "description": "Using Search functionality, User should be able to search for Baby products",
+        "id": "feature-to-test-amazon-search-functionality;search-for-the-products-under-baby-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I visit the website as Guest user",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_visit_the_website_as_guest_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8976900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select the \u0027Baby\u0027 option from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Baby\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefination.SearchProducts.i_select_the_option_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Search Icon button",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_click_on_search_icon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see the Baby page loaded",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_the_baby_page_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \u0027The Baby Store at Amazon\u0027as heading",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_the_baby_store_at_amazon_as_heading()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T10:41:15.644Z",
+        "line": 22,
+        "name": "Search for the products under Computers\u0026Accessories  category",
+        "description": "Using Search functionality, User should be able to search for Computers\u0026Accessories",
+        "id": "feature-to-test-amazon-search-functionality;search-for-the-products-under-computers\u0026accessories--category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I visit the website as Guest user",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_visit_the_website_as_guest_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2991600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select the \u0027Computers\u0026Accessories\u0027 option from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Computers\u0026Accessories\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefination.SearchProducts.i_select_the_option_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3989500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Search Icon button",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_click_on_search_icon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the Computers page loaded",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_the_computers_page_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1995400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \u0027Computers\u0026Accessories\u0027 as heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Computers\u0026Accessories\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefination.SearchProducts.i_should_see_as_heading(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T10:41:15.713Z",
+        "line": 31,
+        "name": "Search for the products under Clothing\u0026Accessories category",
+        "description": "Using Search functionality, User should be able to search for Clothing\u0026Accessories ",
+        "id": "feature-to-test-amazon-search-functionality;search-for-the-products-under-clothing\u0026accessories-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I visit the website as Guest user",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_visit_the_website_as_guest_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1997800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select the \u0027Clothing\u0026Accessories\u0027option from the dropdown",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_select_the_clothing_accessories_option_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1004500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Search Icon button",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_click_on_search_icon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2992800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see the Clothing page loaded",
+            "match": {
+              "location": "stepDefination.SearchProducts.i_should_see_the_clothing_page_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see \u0027Clothing\u0026Accessories\u0027 as heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Clothing\u0026Accessories\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefination.SearchProducts.i_should_see_as_heading(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Amazon Search Functionality",
+    "description": "\t\t\t\tSearching of various categories should be possible along with product search",
+    "id": "feature-to-test-amazon-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/AmazonSearch.feature",
+    "tags": []
+  }
+]
